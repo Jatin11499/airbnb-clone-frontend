@@ -1,0 +1,125 @@
+.menu{
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 50;
+    transition: all 0.25s ease;
+}
+
+.menu__scroll{
+    background-color: white !important;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar{
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}
+
+.navbar-brand{
+    display: flex !important;
+    align-items: center;
+    margin-right: 145px !important;
+    color: white !important;
+}
+
+.navbar-brand__scroll{
+    color: rgb(255, 56, 92) !important;
+}
+
+.navbar-brand > span{
+    padding-left: 10px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.nav-link{
+    color: white !important;
+    cursor: pointer;
+}
+
+.nav-link__scroll{
+    color: rgb(38, 38, 38) !important;
+    border-radius: 30px;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.7) !important;
+}
+
+.nav-link__scroll:hover{
+    color: rgb(38, 38, 38) !important;
+    background-color: rgb(245, 245, 245) !important;
+}
+
+.menu__profileIcon{
+    background-color: white;
+    color: rgb(100,100,100) !important;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    display: flex !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.menu__profileIcon > .MuiAvatar-root{
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 5px !important;
+}
+
+.menu__profileIcon:hover{
+    color: rgb(100,100,100) !important;
+}
+
+.searchBar__scrollBtn{
+    background-color: rgb(255, 56, 92) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    outline-width: 0 !important;
+    padding: 10px !important;
+}
+
+.searchBar__scroll{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.searchBar__scroll:hover{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.searchBar__scroll > input{
+    outline-width: 0;
+    border: none;
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+.navbar__loginSec{
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: left !important;
+}
+
+.navbar__loginSec > p{
+    padding: 10px 40px 10px 40px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar__loginSec > p:hover{
+    background-color: rgb(244, 244, 244);
+}

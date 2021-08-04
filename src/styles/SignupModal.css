@@ -1,0 +1,42 @@
+.navbar__signupBtn{
+    text-transform: inherit !important;
+    outline-width: 0 !important;
+    font-weight: 700 !important;
+}
+
+.modal_styles{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal_googleBtn{
+    text-transform: inherit !important;
+    width: 90% !important;
+    outline-width: 0 !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    border-radius: 10px !important;
+}
+
+.modal_styles > h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.modal__switchBtn{
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.modal__switchBtn:hover{
+    text-decoration: underline;
+}

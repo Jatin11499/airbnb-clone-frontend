@@ -1,0 +1,99 @@
+.propertyBook{
+    margin-top: 125px;
+    padding: 0 75px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.propertyBook__left{
+    flex: 0.65;
+    margin-right: 50px;
+}
+
+.propertyBook__left > h4{
+    font-weight: 600;
+}
+
+.propertyBook__left > img{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    transition: all 0.2s ease;
+}
+
+.propertyBook__right{
+    flex: 0.35;
+}
+
+.propertyBook__right > div{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.propertyBook__right > div > .propertyBook__right__top{
+    align-items: center;
+    display: flex;
+}
+
+.propertyBook__right > div > .propertyBook__right__top > .searchResult__stars{
+    margin-left: auto;
+}
+
+.propertyBook__btn{
+    outline-width: 0 !important;
+    width: 100% !important;
+    background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    text-transform: inherit !important;
+    font-size: 20px !important;
+}
+
+.propertyBook__leftTop{
+    display: flex;
+    margin: 10px 0 5px 0;
+}
+
+.propertyBook__leftIcons{
+    display: flex;
+    margin-left: auto;
+    width: 180px;
+    justify-content: space-around;
+}
+
+.propertyBook__leftIcons > p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.propertyBook__right__bottom{
+    border-radius: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-bottom: 20px;
+}
+
+.propertyBook__right__bottomFields{
+    padding: 10px;
+}
+
+.propertyBook__right__bottomFields > input{
+    outline-width: 0;
+    border: 0;
+    font-size: 12px;
+}
+
+.propertyBook__right__bottomFields > p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.propertyBook__location{
+    margin-left: 5px;
+    color: gray !important;
+    text-decoration: underline;
+    cursor: pointer;
+}

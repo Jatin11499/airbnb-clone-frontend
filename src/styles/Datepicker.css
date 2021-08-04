@@ -1,0 +1,24 @@
+.datepicker{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}
+
+.rdrDefinedRangesWrapper, .rdrDefinedRangesWrapper:hover{
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+
+.rdrCalendarWrapper{
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important; 
+}
+
+.rdrDateDisplayWrapper{
+    border-top-right-radius: 20px !important;
+}
+
+.rdrStaticRanges, .rdrStaticRange, .rdrStaticRanges:hover, .rdrStaticRange:hover, .rdrStaticRangeLabel:hover{
+    border-top-left-radius: 20px !important;
+}

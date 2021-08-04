@@ -1,0 +1,166 @@
+.home__welcomeSec{
+    background-image: url("https://a0.muscache.com/im/pictures/f0483d09-7d13-42d0-a40a-46d585c42220.jpg?im_w=1440");
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__welcomeSec > .home__heading{
+    position: relative;
+    top: 50%;
+    padding: 0 75px;
+    transform: translateY(-50%);
+}
+
+.home__searchBar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20%;
+    border-radius: 50px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15), 0px 3px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.home__searchBar__fields{
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 0 10px 30px;
+}
+
+.home__searchBar__fields:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.home__searchBar__fields > p{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+
+.home__searchBar__fields > input{
+    border: none;
+    outline-width: 0;
+    background-color: transparent;
+    width: 150px;
+}
+
+.home__exploreBtn{
+    background-color: white !important;
+    text-transform: inherit !important;
+    border-radius: 10px !important;
+    padding: 5px 15px !important;
+    font-weight: 500 !important;
+    outline-width: 0 !important;
+}
+
+.home__heading > h1{
+    color: white;
+    font-size: 110px;
+    line-height: 90px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.home__searchBar__searchBtn{
+    background-image: linear-gradient(to right, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 33.3%, rgb(227, 28, 95) 66.6%, rgb(189, 30, 89) 100%) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 10px !important;
+    text-transform: inherit !important;
+    font-weight: 600 !important;
+    padding: 10px 15px !important;
+    margin: 7px !important;
+    outline-width: 0 !important;
+}
+
+.home__searchBar__searchBtn:hover{
+    background-color: rgb(212, 41, 84) !important;
+}
+
+.home__optionsList{
+    padding: 60px 75px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.home__options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.home__options > img{
+    width: 65px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.home__options > div > h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.home__options > div > p{
+    font-size: 15px;
+}
+
+.home__live, .home__host{
+    padding: 0 75px;
+    margin-bottom: 40px;
+}
+
+.home__live > h2, .home__host > h2{
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.home__liveOptions, .home__hostOptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__live__element{
+    width: 25%;
+    cursor: pointer;
+}
+
+.home__live__element > img{
+    border-radius: 10px;
+    width: 95%;
+}
+
+.home__live__element > p, .home__host__element > p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home__live__element:hover, .home__host__element:hover{
+    transform: scale(1.05);
+    transition: all 0.25s ease-in;
+}
+
+.home__host__element{
+    width: 33%;
+    cursor: pointer;
+}
+
+.home__host__element > img{
+    border-radius: 10px;
+    width: 97%;
+}
+
+.explore__link, .explore__link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.home__searchBar__link, .home__searchBar__link:hover{
+    text-decoration: none;
+    color: white;
+}
